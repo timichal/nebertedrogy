@@ -15,7 +15,6 @@ function procSheet(page) {
       if (rowProcessed[0] === "instituci") data.inst.push([rowProcessed[1], rowProcessed[2]]);
     }
   }
-
   function addToTable(arrName, reverse = false) {
     const div = document.getElementById(`sig-${arrName}`);
     data[arrName].forEach(([col1, col2]) => {
