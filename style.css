@@ -89,6 +89,7 @@ table, th, td {
 .signature {
   width: 33%;
   margin-top: 10px;
+  padding: 20px;
 }
 
 .signature-name {
